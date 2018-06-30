@@ -1,0 +1,5 @@
+1000 // cantidad de longitudes de onda por fibra
+100 // cantidad de cromosomas // cantidad de soluciones para poblacion inicial
+0.2 // probabilidad de mutacion
+1 // criterio de parada // cantidad de generaciones // en minutos // si en 10 generaciones no mejora -> para
+10 // cantidad de corridas independientes

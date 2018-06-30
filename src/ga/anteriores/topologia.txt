@@ -1,0 +1,13 @@
+010001
+101010
+010100
+001010
+010101
+100010
+
+info
+nfs: crichigno
+ntt: crichigno
+eon: Differential evolution optimization applied to the routing and
+spectrum allocation problem in flexgrid optical networks
+total AB = 8000 longitudes de onda (aprox 8mb)

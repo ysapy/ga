@@ -1,0 +1,802 @@
+
+Solucion numero: 1
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.904
+Fitness: 2.404
+
+
+Solucion numero: 2
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.155
+Fitness: 1.655
+
+
+Solucion numero: 3
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.929
+Fitness: 2.4290000000000003
+
+
+Solucion numero: 4
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.928
+Fitness: 2.428
+
+
+Solucion numero: 5
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.867
+Fitness: 2.367
+
+
+Solucion numero: 6
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.838
+Fitness: 2.338
+
+
+Solucion numero: 7
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.748
+Fitness: 2.248
+
+
+Solucion numero: 8
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.74
+Fitness: 2.24
+
+
+Solucion numero: 9
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.875
+Fitness: 2.375
+
+
+Solucion numero: 10
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.219
+Fitness: 1.719
+
+
+Solucion numero: 11
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.799
+Fitness: 2.299
+
+
+Solucion numero: 12
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.547
+Fitness: 2.047
+
+
+Solucion numero: 13
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.877
+Fitness: 2.377
+
+
+Solucion numero: 14
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.83
+Fitness: 2.33
+
+
+Solucion numero: 15
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.865
+Fitness: 2.365
+
+
+Solucion numero: 16
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.586
+Fitness: 2.086
+
+
+Solucion numero: 17
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.799
+Fitness: 2.299
+
+
+Solucion numero: 18
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.598
+Fitness: 2.098
+
+
+Solucion numero: 19
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.928
+Fitness: 2.428
+
+
+Solucion numero: 20
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.99
+Fitness: 2.49
+
+
+Solucion numero: 21
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.833
+Fitness: 2.333
+
+
+Solucion numero: 22
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.823
+Fitness: 2.323
+
+
+Solucion numero: 23
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.835
+Fitness: 2.335
+
+
+Solucion numero: 24
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.889
+Fitness: 2.3890000000000002
+
+
+Solucion numero: 25
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.323
+Fitness: 1.823
+
+
+Solucion numero: 26
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.956
+Fitness: 2.456
+
+
+Solucion numero: 27
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.766
+Fitness: 2.266
+
+
+Solucion numero: 28
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.925
+Fitness: 2.425
+
+
+Solucion numero: 29
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.757
+Fitness: 2.257
+
+
+Solucion numero: 30
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.536
+Fitness: 2.036
+
+
+Solucion numero: 31
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.842
+Fitness: 2.342
+
+
+Solucion numero: 32
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.967
+Fitness: 2.467
+
+
+Solucion numero: 33
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.986
+Fitness: 2.4859999999999998
+
+
+Solucion numero: 34
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.746
+Fitness: 2.246
+
+
+Solucion numero: 35
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.988
+Fitness: 2.488
+
+
+Solucion numero: 36
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.643
+Fitness: 2.143
+
+
+Solucion numero: 37
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.634
+Fitness: 2.134
+
+
+Solucion numero: 38
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.82
+Fitness: 2.32
+
+
+Solucion numero: 39
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.699
+Fitness: 2.199
+
+
+Solucion numero: 40
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.641
+Fitness: 2.141
+
+
+Solucion numero: 41
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.847
+Fitness: 2.347
+
+
+Solucion numero: 42
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.987
+Fitness: 2.487
+
+
+Solucion numero: 43
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.94
+Fitness: 2.44
+
+
+Solucion numero: 44
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.668
+Fitness: 2.168
+
+
+Solucion numero: 45
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.276
+Fitness: 1.776
+
+
+Solucion numero: 46
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.907
+Fitness: 2.407
+
+
+Solucion numero: 47
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.785
+Fitness: 2.285
+
+
+Solucion numero: 48
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.954
+Fitness: 2.4539999999999997
+
+
+Solucion numero: 49
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.951
+Fitness: 2.451
+
+
+Solucion numero: 50
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.982
+Fitness: 2.482
+
+
+Solucion numero: 51
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.118
+Fitness: 1.6179999999999999
+
+
+Solucion numero: 52
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.163
+Fitness: 1.663
+
+
+Solucion numero: 53
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.17
+Fitness: 1.67
+
+
+Solucion numero: 54
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.172
+Fitness: 1.672
+
+
+Solucion numero: 55
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.189
+Fitness: 1.689
+
+
+Solucion numero: 56
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.316
+Fitness: 1.816
+
+
+Solucion numero: 57
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.33
+Fitness: 1.83
+
+
+Solucion numero: 58
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.39
+Fitness: 1.8900000000000001
+
+
+Solucion numero: 59
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.405
+Fitness: 1.905
+
+
+Solucion numero: 60
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.408
+Fitness: 1.908
+
+
+Solucion numero: 61
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.419
+Fitness: 1.919
+
+
+Solucion numero: 62
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.422
+Fitness: 1.922
+
+
+Solucion numero: 63
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.423
+Fitness: 1.923
+
+
+Solucion numero: 64
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.434
+Fitness: 1.934
+
+
+Solucion numero: 65
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.451
+Fitness: 1.951
+
+
+Solucion numero: 66
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.478
+Fitness: 1.978
+
+
+Solucion numero: 67
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.478
+Fitness: 1.978
+
+
+Solucion numero: 68
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.484
+Fitness: 1.984
+
+
+Solucion numero: 69
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.513
+Fitness: 2.013
+
+
+Solucion numero: 70
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.524
+Fitness: 2.024
+
+
+Solucion numero: 71
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.528
+Fitness: 2.028
+
+
+Solucion numero: 72
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.529
+Fitness: 2.029
+
+
+Solucion numero: 73
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.532
+Fitness: 2.032
+
+
+Solucion numero: 74
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.578
+Fitness: 2.078
+
+
+Solucion numero: 75
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.613
+Fitness: 2.113
+
+
+Solucion numero: 76
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.619
+Fitness: 2.1189999999999998
+
+
+Solucion numero: 77
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.621
+Fitness: 2.121
+
+
+Solucion numero: 78
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.628
+Fitness: 2.128
+
+
+Solucion numero: 79
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.632
+Fitness: 2.132
+
+
+Solucion numero: 80
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.67
+Fitness: 2.17
+
+
+Solucion numero: 81
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.696
+Fitness: 2.1959999999999997
+
+
+Solucion numero: 82
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.701
+Fitness: 2.201
+
+
+Solucion numero: 83
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.702
+Fitness: 2.202
+
+
+Solucion numero: 84
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.705
+Fitness: 2.205
+
+
+Solucion numero: 85
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.71
+Fitness: 2.21
+
+
+Solucion numero: 86
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.713
+Fitness: 2.213
+
+
+Solucion numero: 87
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.721
+Fitness: 2.221
+
+
+Solucion numero: 88
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.722
+Fitness: 2.222
+
+
+Solucion numero: 89
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.723
+Fitness: 2.223
+
+
+Solucion numero: 90
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.734
+Fitness: 2.234
+
+
+Solucion numero: 91
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.744
+Fitness: 2.2439999999999998
+
+
+Solucion numero: 92
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.798
+Fitness: 2.298
+
+
+Solucion numero: 93
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.808
+Fitness: 2.308
+
+
+Solucion numero: 94
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.817
+Fitness: 2.317
+
+
+Solucion numero: 95
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.821
+Fitness: 2.3209999999999997
+
+
+Solucion numero: 96
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.878
+Fitness: 2.378
+
+
+Solucion numero: 97
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.882
+Fitness: 2.382
+
+
+Solucion numero: 98
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.892
+Fitness: 2.392
+
+
+Solucion numero: 99
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.894
+Fitness: 2.394
+
+
+Solucion numero: 100
+Cantidad de bloqueados: 0
+Costo: 0.75
+Salto Mayor: 0.75
+Espectro Mayor: 0.898
+Fitness: 2.398
+
+
+Tiempo Total: 0

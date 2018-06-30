@@ -1,0 +1,42 @@
+
+Solucion numero: 1
+Cantidad de bloqueados: 0
+Costo: 0.7092747928994082
+Salto Mayor: 0.7092747928994082
+Espectro Mayor: 0.7092747928994082
+Fitness: 0.7092747928994082
+
+
+Solucion numero: 2
+Cantidad de bloqueados: 0
+Costo: 0.7088452071005917
+Salto Mayor: 0.7088452071005917
+Espectro Mayor: 0.7088452071005917
+Fitness: 0.7088452071005917
+
+
+Solucion numero: 3
+Cantidad de bloqueados: 0
+Costo: 0.7139429585798817
+Salto Mayor: 0.7139429585798817
+Espectro Mayor: 0.7139429585798817
+Fitness: 0.7139429585798817
+
+
+Solucion numero: 4
+Cantidad de bloqueados: 0
+Costo: 0.7144584615384615
+Salto Mayor: 0.7144584615384615
+Espectro Mayor: 0.7144584615384615
+Fitness: 0.7144584615384615
+
+
+Solucion numero: 5
+Cantidad de bloqueados: 0
+Costo: 0.715661301775148
+Salto Mayor: 0.715661301775148
+Espectro Mayor: 0.715661301775148
+Fitness: 0.715661301775148
+
+
+Tiempo Total: 100

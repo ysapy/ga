@@ -1,0 +1,20 @@
+
+Solucion numero: 1
+Cantidad de bloqueados: 0
+Costo: 9.07364E7
+Distancia: 453682.0
+Espectro Mayor: 99722.0
+Fitness: 2.9922448756218905
+
+
+Solucion numero: 2
+Cantidad de bloqueados: 0
+Costo: 9.07364E7
+Distancia: 453682.0
+Espectro Mayor: 99858.0
+Fitness: 2.9936048756218905
+
+
+Tiempo inicial: 10:16:9
+Tiempo final: 10:22:49
+Diferencia: 0:6:40
