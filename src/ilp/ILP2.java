@@ -25,201 +25,15 @@
 //public class ILP2 {
 //
 //    public static void main(String args[]) throws IOException {
-//        FileReader fr;
-//
-//
 //        Configuracion config = leerConfiguraciones();
+//
 //        // Definimos e instanciamos el grafo con pesos
 //        SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph = new SimpleDirectedGraph(DefaultWeightedEdge.class);
-//
-//        int cantEnlaces = cargarGrafo(directedGraph);
-//
-//        int cantSolicitudes = 182;
+//        cargarGrafo(directedGraph);
 //        String alfa = leerSolicitudes(directedGraph, config.getK());
-//
-//        String saltos = leerSaltos();
-//        List<String> maximos = leerMaximos();
-//
-//
-//     /*   fr = new FileReader("solicitudes.txt");
-//        try (BufferedReader entrada = new BufferedReader(fr)) {
-//
-//
-//            while (entrada.readLine() != null) {
-//                cantSolicitudes++;
-//            }
-//        }
-//
-//        fr = new FileReader("edges.txt");
-//
-//        try (BufferedReader entrada = new BufferedReader(fr)) {
-//
-//
-//            while (entrada.readLine() != null) {
-//                cantEnlaces++;
-//            }
-//        }
-//*/
-//
-//        FileWriter fw = new FileWriter("C:\\Users\\ysapymimbi\\opl\\ILP2_3\\ILP2_3.dat");
-//
-//        BufferedWriter bw = new BufferedWriter(fw);
-//        try (PrintWriter salida = new PrintWriter(bw)) {
-//            System.out.println("K = " + config.getK() + ";");
-//            salida.println("K = " + config.getK() + ";");
-//            System.out.println("SD = " + cantSolicitudes + ";");
-//            salida.println("SD = " + cantSolicitudes + ";");
-//            System.out.println("E = " + cantEnlaces + ";");
-//            salida.println("E = " + cantEnlaces + ";");
-//
-//            System.out.println("cost_max = " + maximos.get(0) + ";");
-//            salida.println("cost_max = " + maximos.get(0) + ";");
-//
-//            System.out.println("spectrum_max = " + maximos.get(2) + ";");
-//            salida.println("spectrum_max = " + maximos.get(2) + ";");
-//
-//            System.out.println("dist_max = " + maximos.get(1) + ";");
-//            salida.println("dist_max = " + maximos.get(1) + ";");
-//
-//            System.out.println("alfa = " + alfa);
-//            salida.println("alfa = " + alfa);
-//
-//            System.out.println("dist = " + saltos);
-//            salida.println("dist = " + saltos);
-//
-//            System.out.println("Longitud del vector saltos es " + saltos.length());
-//
-//            ArrayList<ArrayList<String>> listaTotalCaminos = leerTotalCaminos();
-//            Set<DefaultWeightedEdge> listaTotalEnlaces = directedGraph.edgeSet();
-//            //ArrayList<ArrayList<String>> listaTotalCaminos = directedGraph.edgeSet();
-//
-//            System.out.println("R = [");
-//            salida.println("R = [");
-//
-//
-//            for (Iterator<ArrayList<String>> it4 = listaTotalCaminos.iterator(); it4.hasNext();) {
-//                String caminoComparador = it4.next().toString();
-//                //System.out.println("caminoComparador = " + caminoComparador + "\n");
-//                System.out.print("[");
-//                salida.print("[");
-//                for (Iterator<DefaultWeightedEdge> it = listaTotalEnlaces.iterator(); it.hasNext();) {
-//                    String enlaceAux = it.next().toString();
-//                    String enlace = enlaceAux.substring(1, enlaceAux.length() - 1);
-//                    //System.out.println("enlace = " + enlace + "\n");
-//
-//                    String result;
-//                    if (caminoComparador.toString().contains(enlace.toString())) {
-//                        result = "1";
-//                    } else {
-//                        result = "0";
-//                    }
-//                    /*for (String enlace : camino) {
-//                     //System.out.println("enlace = " + enlace + "\n");
-//                     if (caminoComparador.contains(enlace))
-//                     result = "1";
-//                     else
-//                     result = "0";
-//
-//                     }*/
-//                    if (it.hasNext()) {
-//                        System.out.print(result + ",");
-//                        salida.print(result + ",");
-//                    } else {
-//                        System.out.print(result);
-//                        salida.print(result);
-//                    }
-//                }
-//                if (it4.hasNext()) {
-//                    System.out.println("],");
-//                    salida.println("],");
-//                } else {
-//                    System.out.println("]];");
-//                    salida.println("]];");
-//                }
-//            }
-//            salida.close();
-//        }
-//
-//
-//
-//        /* Probamos la conexión de Java con CPLEX */
-//        String argumentos[] = {"-v", "C:\\Users\\ysapymimbi\\opl\\ILP2_3\\ILP2_3.mod", "C:\\Users\\ysapymimbi\\opl\\ILP2_3\\ILP2_3.dat", "salidaCplexILP2_3.txt"};
-//        OplRunILP.main(argumentos);
-//
-//        ArrayList<Integer> indiceCaminosElegidos = leerSalidaCplex(config.getK());
-////
-////
-////        for (int x = 0; x < indiceCaminosElegidos.size(); x++) {
-////            System.out.println(indiceCaminosElegidos.get(x));
-////        }
-////
-////        ArrayList<ArrayList<String>> caminosElegidos = leerSoloCaminosElegidos(indiceCaminosElegidos);
-////
-////        for (int x = 0; x < caminosElegidos.size(); x++) {
-////            System.out.println(caminosElegidos.get(x));
-////        }
-//
-////        String alfaSegundaFase = leerSolicitudesSegundaFase(directedGraph, indiceCaminosElegidos);
-////
-////        FileWriter fw2 = new FileWriter("C:\\Users\\ysapymimbi\\opl\\ILP2_2\\ILP2_2.dat");
-////
-////        BufferedWriter bw2 = new BufferedWriter(fw2);
-////        try (PrintWriter salida2 = new PrintWriter(bw2)) {
-////            System.out.println("K = " + config.getK() + ";");
-////            salida2.println("K = " + config.getK() + ";");
-////            System.out.println("SD = " + cantSolicitudes + ";");
-////            salida2.println("SD = " + cantSolicitudes + ";");
-////            System.out.println("Ftotal = " + config.getfTotal() + ";");
-////            salida2.println("Ftotal = " + config.getfTotal() + ";");
-////            System.out.println("G = " + config.getG() + ";");
-////            salida2.println("G = " + config.getG() + ";");
-////            System.out.println("alfa = " + alfaSegundaFase);
-////            salida2.println("alfa = " + alfaSegundaFase);
-////
-////
-////            System.out.println("l = [");
-////            salida2.println("l = [");
-////            for (Iterator<ArrayList<String>> it = caminosElegidos.iterator(); it.hasNext();) {
-////                ArrayList<String> camino = it.next();
-////                System.out.print("[");
-////                salida2.print("[");
-////                for (Iterator<ArrayList<String>> it4 = caminosElegidos.iterator(); it4.hasNext();) {
-////                    ArrayList<String> caminoComparador = it4.next();
-////                    String result = "0";
-////                    for (String enlace : camino) {
-////
-////                        if (caminoComparador.contains(enlace)) {
-////                            result = "1";
-////                            break;
-////                        }
-////
-////                    }
-////                    if (it4.hasNext()) {
-////                        System.out.print(result + ",");
-////                        salida2.print(result + ",");
-////                    } else {
-////                        System.out.print(result);
-////                        salida2.print(result);
-////                    }
-////                }
-////                if (it.hasNext()) {
-////                    System.out.println("],");
-////                    salida2.println("],");
-////                } else {
-////                    System.out.println("]];");
-////                    salida2.println("]];");
-////                }
-////            }
-////        }
-////
-////        /* Probamos la conexión de Java con CPLEX */
-////        String argumentos2[] = {"-v", "C:\\Users\\ysapymimbi\\opl\\ILP2_2\\ILP2_2.mod", "C:\\Users\\ysapymimbi\\opl\\ILP2_2\\ILP2_2.dat", "salidaCplexILP2_2.txt"};
-////        OplRunILP.main(argumentos2);
 //    }
 //
-//    private static int cargarGrafo(SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph) {
-//
-//        int cantEnlaces = 0;
+//    private static void cargarGrafo(SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph) {
 //        try {
 //            FileReader fr = new FileReader("edges.txt");
 //            String[] edgeText;
@@ -228,7 +42,6 @@
 //            try (BufferedReader entrada = new BufferedReader(fr)) {
 //                String line;
 //                while ((line = entrada.readLine()) != null) {
-//                    cantEnlaces++;
 //                    edgeText = line.split("\t");
 //                    directedGraph.addVertex(edgeText[0]);
 //                    directedGraph.addVertex(edgeText[1]);
@@ -238,41 +51,22 @@
 //            }
 //        } catch (FileNotFoundException ex) {
 //            System.out.println("Archivo no encontrado: " + ex);
-//            Logger
-//                    .getLogger(ILP2.class
-//                            .getName()).log(Level.SEVERE, null, ex);
 //        } catch (IOException ex) {
-//            Logger.getLogger(ILP2.class
-//                    .getName()).log(Level.SEVERE, null, ex);
+//            System.out.println("Archivo no encontrado: " + ex);
 //        }
-//
-//        return cantEnlaces;
 //    }
 //
 //    private static void calcularCaminosMasCortos(SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph, String origen, String destino, int contadorEscritura, int k, double cantSolicitada) {
 //        try {
 //            int cont = 0;
-//            FileWriter fw = new FileWriter("kshortestpath.txt");
-//            FileWriter sfw;
 //            FileWriter fw3;
 //            if (origen.equals("0") && destino.equals("1")) {
-//                sfw = new FileWriter("saltos.txt");
 //                fw3 = new FileWriter("ga.txt");
 //            } else {
-//                sfw = new FileWriter("saltos.txt",true);
 //                fw3 = new FileWriter("ga.txt", true);
 //            }
-//            FileWriter fw2;
-//            if (contadorEscritura == 0) {
-//                fw2 = new FileWriter("kshortestpathCompleto.txt");
-//            } else {
-//                fw2 = new FileWriter("kshortestpathCompleto.txt", true);
-//            }
-//            BufferedWriter bw = new BufferedWriter(fw);
-//            BufferedWriter bw2 = new BufferedWriter(fw2);
-//            BufferedWriter sbw = new BufferedWriter(sfw);
 //            BufferedWriter bw3 = new BufferedWriter(fw3);
-//            try (PrintWriter salida = new PrintWriter(bw); PrintWriter salida2 = new PrintWriter(bw2); PrintWriter salida3 = new PrintWriter(sbw); PrintWriter salida4 = new PrintWriter(bw3)) {
+//            try (PrintWriter salida4 = new PrintWriter(bw3)) {
 //
 //                KShortestPaths caminosCandidatos = new KShortestPaths(directedGraph, origen, k);
 //
@@ -287,9 +81,6 @@
 //                    salida4.print(origen + "\t");
 //                    salida4.print(destino + "\t");
 //                    for (DefaultEdge edge : path.getEdgeList()) {
-//                        System.out.print("<" + edge + ">\t");
-//                        salida.print("<" + edge + ">\t");
-//                        salida2.print(edge + "\t");
 //                        if (cantidadNodos == 0) {
 //                            salida4.print(edge);
 //                        } else {
@@ -301,11 +92,6 @@
 //                    salida4.print("\t" + (int)cantSolicitada);
 //                    salida4.print("\t" + (int)cantidadNodos);
 //                    salida4.print("\t" + (int)(cantidadNodos*cantSolicitada) + "\n");
-//
-//                    System.out.println(": " + path.getWeight());  // Indica el peso total de cada camino
-//                    salida.println(": \t" + path.getWeight());
-//                    salida2.println(": \t" + path.getWeight());
-//                    salida3.println((int)path.getWeight());
 //                }
 //            }
 //
@@ -316,19 +102,14 @@
 //    }
 //
 //    private static String leerSolicitudes(SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph, int k) {
-//
-//        String vectorAlfa = "[[";
-//
 //        ArrayList<Solicitud> listaSolicitudes = new ArrayList();
 //        try {
-//
 //            FileReader fr = new FileReader("solicitudes.txt");
 //            String[] edgeText;
 //
 //            try (BufferedReader entrada = new BufferedReader(fr)) {
 //                String line;
 //                while ((line = entrada.readLine()) != null) {
-////                    cantSolicitudes++;
 //                    edgeText = line.split("\t");
 //                    Solicitud sol = new Solicitud(edgeText[0], edgeText[1], Double.parseDouble(edgeText[2]));
 //                    listaSolicitudes.add(sol);
@@ -354,18 +135,6 @@
 //                    System.out.println("Distancia de camino " + ++cont + ": " + dist);
 //                    System.out.println("alfa = " + solicitud.getVelocidad());
 //                    Double d = Math.ceil(solicitud.getVelocidad());
-//
-//                    if (it.hasNext()) {
-//                        if (it2.hasNext()) {
-//                            vectorAlfa = vectorAlfa + d.intValue() + ",";
-//                        } else {
-//                            vectorAlfa = vectorAlfa + d.intValue() + "],[";
-//                        }
-//                    } else if (it2.hasNext()) {
-//                        vectorAlfa = vectorAlfa + d.intValue() + ",";
-//                    } else {
-//                        vectorAlfa = vectorAlfa + d.intValue();
-//                    }
 //                    tsd = solicitud.getVelocidad();
 //                    System.out.println("Tsd = " + tsd);
 //                    ftotal += tsd;
@@ -373,23 +142,14 @@
 //                contadorEscritura++;
 //            }
 //
-//            vectorAlfa = vectorAlfa + "]];";
-//
 //            //System.out.println("vectorAlfa = " + vectorAlfa);
 //            System.out.println("ftotal = " + ftotal + ";");
 //
 //        } catch (FileNotFoundException ex) {
 //            System.out.println("Archivo no encontrado: " + ex);
-//            Logger
-//                    .getLogger(ILP2.class
-//                            .getName()).log(Level.SEVERE, null, ex);
 //        } catch (IOException ex) {
-//            Logger.getLogger(ILP2.class
-//                    .getName()).log(Level.SEVERE, null, ex);
+//            System.out.println("Archivo no encontrado: " + ex);
 //        }
-//
-//
-//        return vectorAlfa;
 //    }
 //
 //    private static String leerSolicitudesSegundaFase(SimpleDirectedGraph<String, DefaultWeightedEdge> directedGraph, ArrayList<Integer> indiceCaminosElegidos) {

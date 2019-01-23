@@ -6,6 +6,7 @@ import ga.objects.Solucion;
 import java.io.*;
 import java.util.*;
 
+import static ga.objects.Carga.cargarGA;
 import static java.lang.Math.floor;
 
 /**
@@ -54,6 +55,7 @@ public class PoblacionInicial {
             for (int a = 0; a < k; a++) {
                 for (int d = 0; d < cantCantidadDeDemandas; d++) {
                     pathActual = pathInicial + "k" + (a + 1) + "\\cantSolicitada" + cantDemandas.get(d) + "\\";
+                    cargarGA(pathGeneral, k, pathActual);
                     demandaInfoList.addAll(llenarDemandInfo(pathActual + "ga.txt"));
                     saltoMayor = getSaltoMayorDeLaRed(demandaInfoList, a + 1);
                     costoMayor = (getCostoMayorDeLaRed(demandaInfoList) + 1) * saltoMayor; // el 1 es agregado para banda guarda
@@ -158,6 +160,8 @@ public class PoblacionInicial {
                     if (asignarRanuras(solucion, j, demandasInfo, algoritmo)){
                         j = demandasInfo.size();
                         bloqueado = false;
+//                    } else {
+//                        demanda.set
                     }
                 }
             }
