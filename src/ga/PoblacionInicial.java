@@ -19,14 +19,14 @@ public class PoblacionInicial {
     private static Long espectroMayor;
     private static int nivelDeModulacion = 1;
     private static List<String> algoritmos = new ArrayList<>();
-    private static String topologia = "6nodos";
+    private static String topologia = "nsf";
     private static String tipoDeCarga = "cargaAleatoria";
 
     public static void main(String [] args) throws IOException {
         algoritmos.add("moga2");
 //        algoritmos.add("ilp");
         for (String algoritmo : algoritmos) {
-            String pathGeneral = "C:\\Users\\ysapymimbi\\IdeaProjects\\tesis\\src\\ga\\archivos\\" + topologia + "\\";
+            String pathGeneral = "C:\\Users\\ysapymimbi\\IdeaProjects\\ga\\src\\ga\\archivos\\" + topologia + "\\";
             String pathInicial = pathGeneral + tipoDeCarga + "\\";
             List<List<Solucion>> todosLosConjuntos = new ArrayList<>();
             List<List<Boolean>> topologia = AGHelper.leerTopologia(pathGeneral);
@@ -55,7 +55,7 @@ public class PoblacionInicial {
             for (int a = 0; a < k; a++) {
                 for (int d = 0; d < cantCantidadDeDemandas; d++) {
                     pathActual = pathInicial + "k" + (a + 1) + "\\cantSolicitada" + cantDemandas.get(d) + "\\";
-                    cargarGA(pathGeneral, k, pathActual);
+                    cargarGA(pathGeneral, a + 1, pathActual);
                     demandaInfoList.addAll(llenarDemandInfo(pathActual + "ga.txt"));
                     saltoMayor = getSaltoMayorDeLaRed(demandaInfoList, a + 1);
                     costoMayor = (getCostoMayorDeLaRed(demandaInfoList) + 1) * saltoMayor; // el 1 es agregado para banda guarda
